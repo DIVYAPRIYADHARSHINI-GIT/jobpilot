@@ -9,8 +9,12 @@ JobPilot is a demo **automatic job-application tracker**. You fill your profile 
 
 ## 🌐 Live demo
 
-- **Live site:** _coming soon (added after deployment)_
+- **Live site:** https://jobpilot-zeta-tan.vercel.app
 - **Source:** https://github.com/DIVYAPRIYADHARSHINI-GIT/jobpilot
+
+Try it: [JobHub](https://jobpilot-zeta-tan.vercel.app/jobs) · [Profile](https://jobpilot-zeta-tan.vercel.app/profile) · [Tracker](https://jobpilot-zeta-tan.vercel.app/tracker) · [Dashboard](https://jobpilot-zeta-tan.vercel.app/dashboard) · [Auto-apply](https://jobpilot-zeta-tan.vercel.app/auto-apply) · [Sample job](https://jobpilot-zeta-tan.vercel.app/jobs/nimbusloop-frontend-developer-1)
+
+The live site passes the same 120-check headless-Chrome suite as local (`BASE_URL=https://jobpilot-zeta-tan.vercel.app npm run e2e`).
 
 ## ✨ Features
 
