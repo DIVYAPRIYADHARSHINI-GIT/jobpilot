@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="t">
+  <title id="t">An empty Kanban board with a paper plane ready to launch</title>
+  <ellipse cx="160" cy="198" rx="130" ry="14" fill="#e0e7ff"/>
+  <g stroke="#c7d2fe" stroke-width="3" fill="#fff">
+    <rect x="30" y="40" width="74" height="140" rx="12"/><rect x="123" y="40" width="74" height="140" rx="12"/><rect x="216" y="40" width="74" height="140" rx="12"/>
+  </g>
+  <g fill="#a5b4fc"><rect x="42" y="52" width="40" height="8" rx="4"/><rect x="135" y="52" width="40" height="8" rx="4"/><rect x="228" y="52" width="40" height="8" rx="4"/></g>
+  <g fill="none" stroke="#c7d2fe" stroke-width="2.5" stroke-dasharray="6 6"><rect x="40" y="72" width="54" height="40" rx="8"/><rect x="133" y="72" width="54" height="40" rx="8"/><rect x="226" y="72" width="54" height="40" rx="8"/></g>
+  <path d="M70 150 q 60 -70 150 -40" fill="none" stroke="#818cf8" stroke-width="3" stroke-dasharray="5 7"/>
+  <g transform="translate(214 92) rotate(12)"><path d="M0 18 L58 0 L40 40 L29 26 Z" fill="#fff" stroke="#4f46e5" stroke-width="3.5" stroke-linejoin="round"/><path d="M29 26 L58 0" stroke="#4f46e5" stroke-width="3"/><path d="M29 26 l-2 14 8-8" fill="#c7d2fe" stroke="#4f46e5" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <circle cx="60" cy="20" r="6" fill="#a5b4fc"/><circle cx="290" cy="24" r="4" fill="#818cf8"/>
+</svg>

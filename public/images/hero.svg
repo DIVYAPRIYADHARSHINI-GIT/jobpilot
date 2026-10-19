@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-labelledby="t">
+  <title id="t">A job seeker at a laptop sending applications that fly up a rising career path</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0e7ff"/><stop offset="1" stop-color="#c7d2fe"/></linearGradient>
+    <linearGradient id="path" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#4f46e5"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#3730a3"/></linearGradient>
+  </defs>
+  <ellipse cx="290" cy="230" rx="250" ry="190" fill="url(#bg)"/>
+  <circle cx="470" cy="90" r="10" fill="#a5b4fc"/><circle cx="80" cy="140" r="6" fill="#a5b4fc"/><circle cx="505" cy="300" r="7" fill="#818cf8"/>
+  <!-- rising career path -->
+  <path d="M70 360 C 170 350, 230 300, 300 250 S 420 150, 500 70" fill="none" stroke="url(#path)" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 22"/>
+  <g fill="#4f46e5"><circle cx="300" cy="250" r="9"/><circle cx="420" cy="150" r="9"/></g>
+  <!-- flag at the top -->
+  <path d="M500 70 V 20" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+  <path d="M502 22 h34 l-9 10 9 10 h-34z" fill="#f59e0b"/>
+  <!-- paper planes (applications) -->
+  <g transform="translate(360 95) rotate(-18)"><path d="M0 14 L44 0 L30 30 L22 20 Z" fill="#fff" stroke="#4f46e5" stroke-width="2.5" stroke-linejoin="round"/><path d="M22 20 L44 0" stroke="#4f46e5" stroke-width="2.5"/></g>
+  <g transform="translate(255 60) rotate(-8) scale(.7)"><path d="M0 14 L44 0 L30 30 L22 20 Z" fill="#fff" stroke="#6366f1" stroke-width="3" stroke-linejoin="round"/></g>
+  <path d="M300 150 q 30 -20 55 -45" fill="none" stroke="#6366f1" stroke-width="2" stroke-dasharray="4 6"/>
+  <!-- floating application card -->
+  <g transform="translate(70 70)">
+    <rect width="150" height="96" rx="14" fill="#fff" stroke="#c7d2fe" stroke-width="2"/>
+    <circle cx="26" cy="28" r="13" fill="#06b6d4"/><path d="M20 28 l5 5 9-10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="48" y="18" width="78" height="8" rx="4" fill="#312e81"/><rect x="48" y="32" width="52" height="6" rx="3" fill="#a5b4fc"/>
+    <rect x="16" y="56" width="118" height="8" rx="4" fill="#e0e7ff"/><rect x="16" y="56" width="92" height="8" rx="4" fill="#22c55e"/>
+    <text x="16" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#16a34a">92% match</text>
+  </g>
+  <!-- desk -->
+  <rect x="120" y="350" width="330" height="14" rx="7" fill="#312e81"/>
+  <rect x="150" y="364" width="10" height="56" fill="#3730a3"/><rect x="410" y="364" width="10" height="56" fill="#3730a3"/>
+  <!-- plant -->
+  <path d="M408 350 h30 l-4 -26 h-22z" fill="#f59e0b"/>
+  <path d="M423 324 c -18 -10 -22 -30 -14 -44 c 10 8 14 26 14 44z" fill="#22c55e"/><path d="M423 324 c 14 -14 30 -14 38 -8 c -10 10 -24 12 -38 8z" fill="#16a34a"/>
+  <!-- person -->
+  <path d="M228 350 c 0 -60 20 -92 62 -92 s 62 32 62 92z" fill="#6366f1"/>
+  <path d="M262 270 l28 26 28 -26" fill="none" stroke="#e0e7ff" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="280" y="236" width="20" height="26" rx="8" fill="#c68a62"/>
+  <circle cx="290" cy="212" r="30" fill="#d39b72"/>
+  <path d="M258 212 c -4 -34 22 -48 42 -44 c 22 4 30 22 22 40 c -8 -14 -24 -20 -40 -18 c -10 2 -18 10 -24 22z" fill="#1e1b4b"/>
+  <circle cx="280" cy="216" r="3" fill="#1e1b4b"/><circle cx="302" cy="216" r="3" fill="#1e1b4b"/>
+  <path d="M282 228 q 9 7 18 0" stroke="#1e1b4b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- laptop -->
+  <path d="M196 350 h188 l-12 -10 h-164z" fill="#cbd5e1"/>
+  <rect x="214" y="262" width="152" height="80" rx="8" fill="url(#screen)" transform="skewX(-4) translate(22 0)"/>
+  <g transform="translate(248 280)" fill="#e0e7ff"><rect width="60" height="6" rx="3"/><rect y="14" width="90" height="6" rx="3" opacity=".7"/><rect y="28" width="76" height="6" rx="3" opacity=".7"/><rect x="0" y="44" width="34" height="12" rx="6" fill="#22d3ee"/></g>
+  <!-- hands -->
+  <circle cx="236" cy="340" r="9" fill="#d39b72"/><circle cx="344" cy="340" r="9" fill="#d39b72"/>
+  <!-- coffee -->
+  <rect x="150" y="326" width="24" height="24" rx="5" fill="#fff" stroke="#4f46e5" stroke-width="2.5"/><path d="M174 332 h5 a5 5 0 0 1 0 12 h-5" fill="none" stroke="#4f46e5" stroke-width="2.5"/>
+  <path d="M158 318 q 4 -6 0 -12 M166 318 q 4 -6 0 -12" stroke="#818cf8" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

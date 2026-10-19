@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Class-based dark mode (toggled on <html class="dark">). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-inter), var(--font-noto-ta), var(--font-noto-deva), ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+
+  --animate-pop-in: pop-in 0.25s cubic-bezier(0.2, 1.2, 0.4, 1) both;
+  --animate-slide-up: slide-up 0.3s ease-out both;
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-draw: draw 0.7s 0.2s ease-out both;
+  --animate-burst: burst 0.9s ease-out both;
+  --animate-fly: fly 1.4s ease-in-out both;
+
+  @keyframes pop-in {
+    from { opacity: 0; transform: scale(0.94) translateY(6px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  @keyframes draw {
+    from { stroke-dashoffset: 60; }
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes burst {
+    0% { opacity: 1; transform: translate(0, 0) scale(0.6); }
+    100% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(1); }
+  }
+  @keyframes fly {
+    0% { opacity: 0; transform: translate(-40px, 30px) rotate(-10deg); }
+    40% { opacity: 1; }
+    100% { opacity: 0; transform: translate(120px, -90px) rotate(8deg); }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-200;
+  font-family: var(--font-sans);
+}
+
+/* Scripts with tall glyphs need a little more line height. */
+html[lang="ta"] body,
+html[lang="hi"] body {
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.kanban-col[data-over="true"] {
+  @apply ring-2 ring-indigo-400 bg-indigo-50/60 dark:bg-indigo-500/10;
+}
